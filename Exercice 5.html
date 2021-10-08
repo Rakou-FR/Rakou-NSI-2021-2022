@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>Exercice 5</title>
+<style>
+.maclasse{
+    background-color:grey;
+    padding: 8px;
+    color: green;
+}
+
+p{
+    color:blue;
+    font-size: 14px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+    font-variant-caps: all-small-caps;
+}
+
+h2{
+    padding: 0.5%;
+    background-color:red;
+    border-right: 5px black dotted;
+}
+
+article:hover{
+   background-color: yellow;
+}
+
+h2:hover{
+    text-decoration: underline;
+ }
+
+#monid{
+    padding: 10px;
+    margin: 10px;
+    border: black solid;
+}
+
+#superid{
+    color: red;
+}
+</style>
+</head>
+<body>
+<section>
+	<h1>Mon titre 1</h1>
+	<article>
+		<h2>Mon Titre 2</h2>
+		<p>Premier paragraphe</p>
+		<p class="maclasse">Deuxième paragraphe</p>
+		<p>Troisième paragraphe</p>
+		<p id="monid">Quatrième paragraphe</p>
+	</article>
+	<article>
+		<h2 class="maclasse">Mon Titre 3</h2>
+		<p id="superid" class="maclasse">Cinquième paragraphe</p>
+		<p>Sixième paragraphe</p>
+	</article>
+</section>
+</body>
+</html>
+
+<!--
+
+Avec du CSS, il faut faire en sorte de :
+
+Partie 1:
+    Changer la couleur du texte de tous les paragraphes (en bleu="blue")
+    Changer la couleur de fond et ajouter une marges intérieure aux éléments de classe maclasse (couleur grise="gray")
+    Ajouter une bordure en trait continu (couleur noire), une marge intérieure (10 pixels) et une marge extérieure (20pixels) à l'élément d'identifiant monid
+Partie 2:
+	Définir la taille de police des titres 1 à 2.5em et petites majuscules
+	Définir la taille de police des paragraphes à 14px
+Partie 3:
+    Changer la couleur du texte des éléments de classe maclasse en vert ("green")
+    Changer la couleur du texte des éléments d'identifiant superid en rouge ("red")
+Partie 4:
+	Les titres de niveau 1 doivent être aligné au centre, écrit en rouge et de taille 2em.
+	Les titres de niveau 2 doivent avoir une marge intérieure de 10px, être sur un fond rouge et avoir une bordure à droite de 5px noire en pointillés.
+Partie 5:
+	Au survol par la souris des articles, leur fond doit devenir de couleur jaune
+	Au survol par la souris des titres de niveau 2, le texte du titre devient souligné
+
+-->

@@ -1,0 +1,23 @@
+p{
+    color: blue;
+    font-size: 14px;
+}
+
+h1{
+    color:red;
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    margin-left: 10px;
+    background-color: yellow;
+}
+
+article{
+    border-left: 50px solid;
+}
+
+section{
+    border: dashed red;
+}
