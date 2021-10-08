@@ -1,0 +1,41 @@
+.maclasse{
+    background-color:grey;
+    padding: 8px;
+    color: green;
+}
+
+p{
+    color:blue;
+    font-size: 14px;
+}
+
+h1{
+    text-align: center;
+    color: red;
+    font-size: 2.5em;
+    font-variant-caps: all-small-caps;
+}
+
+h2{
+    padding: 0.5%;
+    background-color:red;
+    border-right: 5px black dotted;
+}
+
+article:hover{
+   background-color: yellow;
+}
+
+h2:hover{
+    text-decoration: underline;
+ }
+
+#monid{
+    padding: 10px;
+    margin: 10px;
+    border: black solid;
+}
+
+#superid{
+    color: red;
+}
