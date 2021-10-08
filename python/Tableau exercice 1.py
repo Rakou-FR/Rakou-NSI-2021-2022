@@ -19,26 +19,3 @@ def tab_colonne():
         print(liste[i])
 
 tab_colonne()
-
-
-
-
-x = 4
-while x > 0 :
-    y = 0
-    while y < x :
-        y = y + 1
-        x = x - 1
-        print(x,y)
-
-
-
-nombre = input("Saisir un nombre")
-triple = nombre * 3
-print(triple)
-
-
-n = 8.0
-while n > 1.0 :
-  n = n / 2
-  print(n)
